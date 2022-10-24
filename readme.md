@@ -44,4 +44,4 @@ Using SDL2 as a frame buffer
 
 ## Using other libraries
 
-SDL2_ttf and SDL2_image do work and have been tested although they will require additional libraries to work. I reccomend downloading Parayste to obtain the libraries required. SDL2-gfx will not work as the graphics cannot be drawn to a surface as far as I know.
+SDL2_ttf and SDL2_image do work and have been tested although they will require additional libraries to work. I reccomend downloading [Parayste](https://github.com/steward-fu/miyoo-mini/releases/) to obtain the libraries required. SDL2-gfx will not work as the graphics cannot be drawn to a surface as far as I know.
