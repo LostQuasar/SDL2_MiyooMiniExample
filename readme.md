@@ -1,10 +1,10 @@
 ﻿# SDL2 C# Example
 
-This repository shows the basic layout of a C# SDL2 application for the miyoo mini
+This repository shows the basic layout of a C# SDL2 application for the Miyoo Mini
 
 ### Advantages of using C# and SDL2
 
-runs on both windows and Miyoo for quicker debugging and developement.
+runs on both windows and Miyoo for quicker debugging and development.
 
 ### Publish Settings
 
@@ -13,7 +13,6 @@ runs on both windows and Miyoo for quicker debugging and developement.
 - File publish options:
   - Publish single file
   - Trim unused code
-
 
 ### How to run on Windows
 
@@ -26,7 +25,7 @@ runs on both windows and Miyoo for quicker debugging and developement.
 ### How to run on Miyoo
 
 - Publish to folder
-- Copy files from folder to `SDCARD/App/SDL_Mini_Example/`
+- Copy files from the folder to `SDCARD/App/SDL_Mini_Example/`
 
 ## Hacks and their reasoning
 
@@ -40,8 +39,8 @@ runs on both windows and Miyoo for quicker debugging and developement.
 
 Using SDL2 as a frame buffer
 
-- Unfortuantely all of SDL2 functionality has not been completed inside of [Steward-Fu](https://steward-fu.github.io/website/index.htm)'s port of SDL2 however enough exits to create C# programs.
+- Unfortunately, all of SDL2 functionality has not been completed inside of [Steward-Fu](https://steward-fu.github.io/website/index.htm)'s port of SDL2 however enough exits to create C# programs.
 
 ## Using other libraries
 
-SDL2_ttf and SDL2_image do work and have been tested although they will require additional libraries to work. I reccomend downloading [Parayste](https://github.com/steward-fu/miyoo-mini/releases/) to obtain the libraries required. SDL2-gfx will not work as the graphics cannot be drawn to a surface as far as I know.
+SDL2_ttf and SDL2_image do work and have been tested although they will require additional libraries to work. I recommend downloading [Parayste](https://github.com/steward-fu/miyoo-mini/releases/) to obtain the libraries required. SDL2-gfx will not work as the graphics cannot be drawn to a surface as far as I know.

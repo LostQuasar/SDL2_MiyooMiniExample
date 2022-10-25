@@ -1,6 +1,6 @@
 {
   "label":"SDL2 C# Example",
-  "icon":"icon.png",
+  "icon":"res/icon.png",
   "launch":"launch.sh",
   "description":"SDL2 C# Example"
 }

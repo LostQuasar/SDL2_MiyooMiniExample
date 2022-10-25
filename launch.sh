@@ -1,7 +1,7 @@
 #!/bin/sh
 echo $0 $*
 mydir=`pwd`
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$mydir/lib/
+export LD_LIBRARY_PATH=$mydir/lib:$LD_LIBRARY_PATH
 export SDL_VIDEODRIVER=mmiyoo
 export SDL_AUDIODRIVER=mmiyoo
 export EGL_VIDEODRIVER=mmiyoo
